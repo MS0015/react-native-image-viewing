@@ -18,7 +18,7 @@ import useDoubleTapToZoom from "../../hooks/useDoubleTapToZoom";
 import useImageDimensions from "../../hooks/useImageDimensions";
 import { getImageStyles, getImageTransform } from "../../utils";
 import { ImageLoading } from "./ImageLoading";
-import FastImage from "react-native-fast-image";
+import FastImage from "react-native-blasted-image";
 const SWIPE_CLOSE_OFFSET = 75;
 const SWIPE_CLOSE_VELOCITY = 0.002;
 const SCREEN = Dimensions.get("screen");
